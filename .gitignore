@@ -1,0 +1,9 @@
+
+.project
+.classpath
+.project
+*.png
+*.xml
+*.xml
+.idea/workspace.xml
+/bin1/
