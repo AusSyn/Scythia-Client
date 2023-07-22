@@ -794,8 +794,8 @@ public class ItemDef3 {
             break;
         case 19092:
             itemDef.modelID = 42006;
-            itemDef.name = "Solara Slayer Cape";
-            itemDef.description = "Solara Slayer Cape";
+            itemDef.name = "Scythia Slayer Cape";
+            itemDef.description = "Scythia Slayer Cape";
             ItemDefinition itemDef52111111 = ItemDefinition.forID(1127);
             itemDef.groundActions = itemDef52111111.groundActions;
             itemDef.actions = itemDef52111111.actions;

@@ -1636,8 +1636,8 @@ public class GameClient extends RSApplet {
                 }
             } else if (super.saveClickX >= 404 && super.saveClickX <= 515 && super.saveClickY >= clientHeight - 23
                     && super.saveClickY <= clientHeight) {
-                launchURL("http://Solarascape.org/");
-                pushMessage("We've attempted to open http://Solarascape.org/ for you.", 0, "");
+                launchURL("http://Scythiascape.org/");
+                pushMessage("We've attempted to open http://Scythiascape.org/ for you.", 0, "");
             }
             if (!showChat) {
                 cButtonCPos = -1;
@@ -9330,8 +9330,8 @@ public class GameClient extends RSApplet {
             }
         }
         if (l == 606) {
-            launchURL("http://Solarascape.org/");
-            pushMessage("We've attempted to open http://Solarascape.org/ for you.", 0, "");
+            launchURL("http://Scythiascape.org/");
+            pushMessage("We've attempted to open http://Scythiascape.org/ for you.", 0, "");
         }
         if (l == 491) {
             Player class30_sub2_sub4_sub1_sub2_6 = playerArray[nodeId];
@@ -10568,13 +10568,13 @@ public class GameClient extends RSApplet {
                         g.drawString("https://discord.gg/dPeJYKf", 50, 150);
                     }
                     if (inputString.startsWith("::store")) {
-                        g.drawString("https://solara.gamepayments.net/", 50, 150);
+                        g.drawString("https://Scythia.gamepayments.net/", 50, 150);
                     }
                     if (inputString.startsWith("::website")) {
-                        g.drawString("http://solara-rsps.online", 50, 150);
+                        g.drawString("http://Scythia-rsps.online", 50, 150);
                     }
                     if (inputString.startsWith("::vote")) {
-                        g.drawString("https://solara.everythingrs.com/services/vote", 50, 150);
+                        g.drawString("https://Scythia.everythingrs.com/services/vote", 50, 150);
                     }
                     if (inputString.startsWith("::mousey")) {
                         printMousey = true;
@@ -12195,7 +12195,7 @@ public class GameClient extends RSApplet {
                 showTwoFactorAuth = false;
                 showCaptcha = false;
                 loginScreenCursorPos = 0;
-                loginMessages = new String[]{"Solara is currently being updated.",
+                loginMessages = new String[]{"Scythia is currently being updated.",
                         "Please try again in 60 seconds.."};
                 return;
             }
@@ -12203,14 +12203,14 @@ public class GameClient extends RSApplet {
                 showTwoFactorAuth = false;
                 showCaptcha = false;
                 loginScreenCursorPos = 0;
-                loginMessages = new String[]{"Solara is currently busy.", "Please try again."};
+                loginMessages = new String[]{"Scythia is currently busy.", "Please try again."};
                 return;
             }
             if (loginCode == 8) {
                 showTwoFactorAuth = false;
                 showCaptcha = false;
                 loginScreenCursorPos = 0;
-                loginMessages = new String[]{"Solara login server is down.",
+                loginMessages = new String[]{"Scythia login server is down.",
                         "Please try again in 60 seconds.."};
                 return;
             }
@@ -12248,14 +12248,14 @@ public class GameClient extends RSApplet {
             if (loginCode == 14) {
                 showTwoFactorAuth = false;
                 loginScreenCursorPos = 0;
-                loginMessages = new String[]{"Solara is currently being updated.",
+                loginMessages = new String[]{"Scythia is currently being updated.",
                         "Please try again in 60 seconds.."};
                 return;
             }
             if (loginCode == 23) {
                 showTwoFactorAuth = false;
                 loginScreenCursorPos = 0;
-                loginMessages = new String[]{"Solara is currently being launched.",
+                loginMessages = new String[]{"Scythia is currently being launched.",
                         "Please try again in 60 seconds.."};
                 return;
             }
@@ -12293,7 +12293,7 @@ public class GameClient extends RSApplet {
             if (loginCode == 30) {
                 showTwoFactorAuth = false;
                 loginScreenCursorPos = 0;
-                loginMessages = new String[]{"Solara has been updated!",
+                loginMessages = new String[]{"Scythia has been updated!",
                         isWebclient() ? "Refresh this page." : "Download the latest client."};
                 return;
             }
@@ -13144,7 +13144,7 @@ public class GameClient extends RSApplet {
 
     public void load() {
         try {
-            animatedLogin = new AnimatedSprite(String.valueOf(signlink.findcachedir()) + "bg2.gif");
+            animatedLogin = new AnimatedSprite(String.valueOf(signlink.findcachedir()) + "bg2.png");
             titleStreamLoader = streamLoaderForName(1, "title screen", "title", expectedCRCs[1], 25);
             smallText = new TextDrawingArea(false, "p11_full", titleStreamLoader);
             smallHit = new TextDrawingArea(false, "hit_full", titleStreamLoader);
@@ -13163,7 +13163,7 @@ public class GameClient extends RSApplet {
             newFancyFont = new RSFontSystem(true, "q8_full", titleStreamLoader);
             final TextDrawingArea aTextDrawingArea_1273 = new TextDrawingArea(true, "q8_full", titleStreamLoader);
 
-            setLoadingText(10, "Initializing Solara");
+            setLoadingText(10, "Initializing Scythia");
             //preloadModels();
             CustomObjects.init();
             resetImageProducers();
@@ -13493,7 +13493,7 @@ public class GameClient extends RSApplet {
             g.setFont(new Font("Helvetica", 1, 16));
             g.setColor(Color.yellow);
             int k = 35;
-            g.drawString("Sorry, an error has occured whilst loading Solara", 30, k);
+            g.drawString("Sorry, an error has occured whilst loading Scythia", 30, k);
             k += 50;
             g.setColor(Color.white);
             g.drawString("To fix this try the following (in order):", 30, k);
@@ -13514,8 +13514,8 @@ public class GameClient extends RSApplet {
             g.setFont(new Font("Helvetica", 1, 20));
             g.setColor(Color.white);
             g.drawString("Error - unable to load game!", 50, 50);
-            g.drawString("To play Solara make sure you play from", 50, 100);
-            g.drawString("http://Solarascape.org/", 50, 150);
+            g.drawString("To play Scythia make sure you play from", 50, 100);
+            g.drawString("http://Scythiascape.org/", 50, 150);
         }
     }
 
@@ -16770,7 +16770,7 @@ public class GameClient extends RSApplet {
         int k = 0;
         while (expectedCRCs[8] == 0) {
             String s = "Unknown problem";
-            setLoadingText(10, "Connecting to Solara...");
+            setLoadingText(10, "Connecting to Scythia...");
             try {
                 DataInputStream datainputstream = openJagGrabInputStream(
                         "crc" + (int) (Math.random() * 99999999D) + "-" + 317);

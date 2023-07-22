@@ -13,8 +13,8 @@ import java.util.zip.ZipInputStream;
 
 public class CacheDownloader implements Runnable {
 
-	public static final String CACHE_PATH = System.getProperty("user.home") + File.separator + ".solara" + File.separator;
-	private static final String ZIP_URL = "https://www.dropbox.com/s/8wd110yhplmebph/.solara.zip?dl=1";
+	public static final String CACHE_PATH = System.getProperty("user.home") + File.separator + ".scyther" + File.separator;
+	private static final String ZIP_URL = "https://www.spiralrsps.com/scythia/.scythia.zip";
 	private static final String VERSION_FILE = CACHE_PATH + "version.txt";
 	private static final int CACHE_VERSION = 80;
 
@@ -121,7 +121,7 @@ public class CacheDownloader implements Runnable {
 	}
 
 	private File downloadCache() {
-		File ret = new File(CACHE_PATH + "solara.zip");
+		File ret = new File(CACHE_PATH + ".sycthia.zip");
 
 		try (OutputStream out = new FileOutputStream(ret)) {
 			URLConnection conn = new URL(ZIP_URL).openConnection();

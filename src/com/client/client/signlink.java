@@ -253,7 +253,7 @@ public final class signlink implements Runnable {
 	public static Synthesizer synthesizer;
 
 	public static String findcachedir() {
-	String cacheLoc = System.getProperty("user.home") + "/.solara/"; 
+	String cacheLoc = System.getProperty("user.home") + "/.scythia/"; 
 
 		File cacheDir = new File(cacheLoc);
 		if(!cacheDir.exists()) {

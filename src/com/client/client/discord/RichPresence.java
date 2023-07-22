@@ -22,7 +22,7 @@ public class RichPresence {
         presence.startTimestamp = System.currentTimeMillis() / 1000;
         presence.largeImageKey = "bg";
         presence.smallImageKey = "bg";
-        presence.state = "Playing Solara";
+        presence.state = "Playing Scythia";
         updatePresence();
         new Thread(() -> {
             while (!Thread.currentThread().isInterrupted()) {
@@ -36,7 +36,7 @@ public class RichPresence {
 
     
     public void reloadPresence(){
-    	presence.state = "solararsps.com";
+    	presence.state = "Scythiarsps.com";
     }
 
     public boolean presenceIsNull() {

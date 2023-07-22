@@ -33,7 +33,7 @@ public class SwingUI extends GameClient implements ActionListener {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 			JFrame.setDefaultLookAndFeelDecorated(true);
 			JPopupMenu.setDefaultLightWeightPopupEnabled(false);
-			frame = new JFrame("Solara");
+			frame = new JFrame("Scythia");
 			frame.setLayout(new BorderLayout());
 			frame.setResizable(false);
 			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

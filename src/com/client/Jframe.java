@@ -62,7 +62,7 @@ public class Jframe extends GameClient implements ActionListener {
 		    @Override
 		    public void windowClosing(WindowEvent we) { 
 		        String options[] = {"Yes", "No"};
-		        int userPrompt = JOptionPane.showOptionDialog(null, "Are you sure you wish to exit?", "Solara",
+		        int userPrompt = JOptionPane.showOptionDialog(null, "Are you sure you wish to exit?", "Scythia",
 		        		JOptionPane.DEFAULT_OPTION, JOptionPane.WARNING_MESSAGE, null, options , options[1]);
 		       if(userPrompt == JOptionPane.YES_OPTION) {
 		        	if(!Configuration.DEVELOPMENT_SERVER) {
@@ -161,7 +161,7 @@ public class Jframe extends GameClient implements ActionListener {
 	    @Override
 	    public void windowClosing(WindowEvent we) { 
 	        String options[] = {"Yes", "No"};
-	        int userPrompt = JOptionPane.showOptionDialog(null, "Are you sure you wish to exit?", "Solara", 
+	        int userPrompt = JOptionPane.showOptionDialog(null, "Are you sure you wish to exit?", "Scythia", 
 	        		JOptionPane.DEFAULT_OPTION, JOptionPane.WARNING_MESSAGE, null, options , options[1]);
 	        if(userPrompt == JOptionPane.YES_OPTION) {
 	            System.exit(0);
@@ -340,26 +340,26 @@ public class Jframe extends GameClient implements ActionListener {
 			if (cmd != null) {
 				switch (cmd) {
 				case "Home":
-					openURL("http://www.Solara.org");
+					openURL("http://www.Scythia.org");
 					break;
 				case "Forums":
-					openURL("http://www.Solara.org");
+					openURL("http://www.Scythia.org");
 					break;
 				case "Knowledge Base":
-					openURL("http://www.Solara.org");
+					openURL("http://www.Scythia.org");
 					break;
 				case "Store":
-					openURL("http://www.Solara.org");
+					openURL("http://www.Scythia.org");
 					break;
 				case "Vote":
-					openURL("http://www.Solara.org");
+					openURL("http://www.Scythia.org");
 					break;
 				case "Hiscores":
-					openURL("http://www.Solara.org");
+					openURL("http://www.Scythia.org");
 					break;
 				case "Join Discord":
 					//String nickname = (Client.instance.getMyUsername() != null && Client.loggedIn && Client.instance.getMyUsername().length() > 2) ? TextClass.fixName(Client.instance.getMyUsername().replaceAll(" ", "%20")) : "ForumGuest";
-					openURL("http://www.Solara.org");
+					openURL("http://www.Scythia.org");
 					break;
 				}
 

@@ -130,7 +130,7 @@ public final class MobDefinition {
             break;
         case 4603:
         	npc.name = "Goku 1";
-        	npc.description = "A master attacker of SolaraRsps.";
+        	npc.description = "A master attacker of ScythiaRsps.";
             npc.combatLevel = 913;
             npc.actions = new String[5];
             npc.actions[1] = "Attack";
@@ -2871,7 +2871,7 @@ public final class MobDefinition {
 			npc.sizeY = 140;
 		break;
 		case 1495:
-			npc.name = "Deadly Solara";
+			npc.name = "Deadly Scythia";
 			npc.models = new int[] { 50393 };
 			//npc.boundDim = 1;
 			npc.standAnim = 808;
@@ -2941,7 +2941,7 @@ public final class MobDefinition {
 			npc.sizeY = 140;
 		break;		
 		case 6820:
-			npc.name = "Solara's Shooter";
+			npc.name = "Scythia's Shooter";
 			npc.models = new int[] { 50307 };
 			//npc.boundDim = 1;
 			npc.standAnim = 808;

@@ -63,7 +63,7 @@ public class RSInterface {
 
         addSprite(17551, 0, "Sprites/RewardList/Background");
 
-        RSInterface.addText(17552, "Solara Reward List", textDrawingAreas, 2,
+        RSInterface.addText(17552, "Scythia Reward List", textDrawingAreas, 2,
                 0xEAC117, true);
 
         addHoverButton(17553, dir, 1, 16, 16, "Close Window", 250, 17557, 3);
@@ -293,7 +293,7 @@ public class RSInterface {
         tab.child(c++, 45002, 0, 33);
         tab.child(c++, 45003, 0, 36);
 
-        addText(id, "@whi@Solara Raids Party: 0", fonts, 2, 16750623, true, true);
+        addText(id, "@whi@Scythia Raids Party: 0", fonts, 2, 16750623, true, true);
         tab.child(c++, id++, 95 + x, 10 + y);
         tab.child(c++, 58015, 2 + x, 35 + y);
 
@@ -595,7 +595,7 @@ public class RSInterface {
         String dir = "ScratchCard/Button";
         addSprite(39301, 0, dir);
 
-        RSInterface.addText(39302, "Solara Scratch Card", tda, 2, 0xFFFFF, true, true); // 20014
+        RSInterface.addText(39302, "Scythia Scratch Card", tda, 2, 0xFFFFF, true, true); // 20014
         RSInterface.addText(39303, "Match 3 to Win!", tda, 2, 0xFF9900, true, true); // 20014
         RSInterface.addText(39304, "Win Amazing Prizes!", tda, 0, 0xFF9900, true, true); // 20014
         //RSInterface.addButton(39305, 1595, 1596, "Scratch");
@@ -856,7 +856,7 @@ public class RSInterface {
 
         addText(43534, "Item list", tda, 0, 16751360, true, true);
         addText(43535, "Required items", tda, 0, 16751360, true, true);
-        addText(43536, "Solara Item fuser", tda, 0, 16751360, true, true);
+        addText(43536, "Scythia Item fuser", tda, 0, 16751360, true, true);
         addItemOnInterface(43537, 43500, new String[]{null, null});
 
         addHoverButtonWSpriteLoader(43538, 1200, 120, 34, "Fuse", -1, 43539, 1);
@@ -1043,7 +1043,7 @@ public class RSInterface {
         RSInterface tab = addInterface(62200);
         addSpriteLoader(62201, 1283);
         addButtonWSpriteLoader(62202, 1284, "@whi@Upgrade Items", 241, 30);
-        tab.addText(62204, "Solara Upgrades", fonts, 2, 0xffffff);
+        tab.addText(62204, "Scythia Upgrades", fonts, 2, 0xffffff);
         tab.addText(62205, "Upgradeable Items", fonts, 2, 0xffffff);
         tab.addText(62206, "Upgrade Items", fonts, 2, 0xffffff);
         tab.addText(62203, "Bags required: -", fonts, 2, 0xffffff);
@@ -1806,7 +1806,7 @@ public static final int WRAPPED_TEXT = 20; //type
     public static void newStarter(TextDrawingArea[] tda) {
         RSInterface tab = addInterface(52750);
         addSpriteLoader(52751, 1369);
-        addText(52752, "Solara Game Mode Selection Screen", ColorConstants.ORANGE, true, true, 52, tda, 2);
+        addText(52752, "Scythia Game Mode Selection Screen", ColorConstants.ORANGE, true, true, 52, tda, 2);
         addText(52753, "Select a game mode", ColorConstants.ORANGE, true, true, 52, tda, 1);
         addText(52754, "Starter Pack", ColorConstants.ORANGE, true, true, 52,
                 tda, 1);
@@ -1825,7 +1825,7 @@ public static final int WRAPPED_TEXT = 20; //type
         addText(52763, "  Ultimate Ironman", ColorConstants.ORANGE, false, true, 52, tda, 2);
         addText(52774, "  Veteran", ColorConstants.ORANGE, false, true, 52, tda, 2);
         addText(52778, "  Group Ironman", ColorConstants.ORANGE, false, true, 52, tda, 2);
-        addText(52764, "Play Solara as an Iron man.", ColorConstants.ORANGE, true, true, 52, tda, 0);
+        addText(52764, "Play Scythia as an Iron man.", ColorConstants.ORANGE, true, true, 52, tda, 0);
         addText(52765, "", ColorConstants.ORANGE,
                 true, true, 52, tda, 0);
         addText(52766, "", ColorConstants.ORANGE, true, true, 52,
@@ -2049,7 +2049,7 @@ public static final int WRAPPED_TEXT = 20; //type
         addHoveredButton(37437, "Interfaces/Tele/TBUTTONS/BH", 11, 81, 34, 37638);
 
 
-        addText(50430, "SolaraRsps Teleports", fonts, 2, 0xff9040, true, true); //rename it whatever
+        addText(50430, "ScythiaRsps Teleports", fonts, 2, 0xff9040, true, true); //rename it whatever
 
         int last = 33;
         RSinterface.children = new int[last];
@@ -2145,7 +2145,7 @@ public static final int WRAPPED_TEXT = 20; //type
         addHoveredButton(38433, "Interfaces/Tele/DBUTTONS/BH", 9, 81, 34, 38634);
 
 
-        addText(50430, "SolaraRsps Teleports", fonts, 2, 0xff9040, true, true);
+        addText(50430, "ScythiaRsps Teleports", fonts, 2, 0xff9040, true, true);
 
         int last = 29;
         RSinterface.children = new int[last];
@@ -2245,7 +2245,7 @@ public static final int WRAPPED_TEXT = 20; //type
         //addHoverButton(41440, "Interfaces/Tele/ARROW", 0, 29, 24, "Back", -1, 41441, 1);
 
 
-        addText(50430, "SolaraRsps Teleports", fonts, 2, 0xff9040, true, true);
+        addText(50430, "ScythiaRsps Teleports", fonts, 2, 0xff9040, true, true);
 
         int last = 34;
         RSinterface.children = new int[last];
@@ -2348,7 +2348,7 @@ public static final int WRAPPED_TEXT = 20; //type
         addHoverButton(42440, "Interfaces/Tele/ARROW", 0, 29, 24, "Back", -1, 42441, 1);
 
 
-        addText(50430, "SolaraRsps Teleports", fonts, 2, 0xff9040, true, true);
+        addText(50430, "ScythiaRsps Teleports", fonts, 2, 0xff9040, true, true);
 
         int last = 35;
         RSinterface.children = new int[last];
@@ -2452,7 +2452,7 @@ public static final int WRAPPED_TEXT = 20; //type
         addHoverButton(43440, "Interfaces/Tele/ARROW", 0, 29, 24, "Back", -1, 43441, 1);
 
 
-        addText(50430, "SolaraRsps Teleports", fonts, 2, 0xff9040, true, true);
+        addText(50430, "ScythiaRsps Teleports", fonts, 2, 0xff9040, true, true);
 
         int last = 24;
         RSinterface.children = new int[last];
@@ -2545,7 +2545,7 @@ public static final int WRAPPED_TEXT = 20; //type
         addHoveredButton(39429, "Interfaces/Tele/MBUTTONS/BH", 7, 81, 34, 39630);
 
 
-        addText(50430, "SolaraRsps Teleports", fonts, 2, 0xff9040, true, true);
+        addText(50430, "ScythiaRsps Teleports", fonts, 2, 0xff9040, true, true);
 
 
         int last = 25;
@@ -2642,7 +2642,7 @@ public static final int WRAPPED_TEXT = 20; //type
         //addHoveredButton(40439, "Interfaces/Tele/TBUTTONS/BH", 11, 81, 34, 39639);
 
 
-        addText(50430, "SolaraRsps Teleports", fonts, 2, 0xff9040, true, true);
+        addText(50430, "ScythiaRsps Teleports", fonts, 2, 0xff9040, true, true);
 
         int last = 25;
         RSinterface.children = new int[last];
@@ -2826,7 +2826,7 @@ public static final int WRAPPED_TEXT = 20; //type
         addSpriteLoader(57001, 805);
         addText(57002, "Players Online", 0xff9933, true, true, -1, tda, 2);
         addText(57003, "", 0xff9933, true, true, -1, tda, 1);
-        addText(57007, "SolaraScape.org", 0xff9933, true, true, -1, tda, 0);
+        addText(57007, "ScythiaScape.org", 0xff9933, true, true, -1, tda, 0);
         addText(57008, "", 0xff9933, true, true, -1, tda, 3);
         addText(57009, "", 0xff9933, false, true, -1, tda, 0);
         addText(57010, "", 0xff9933, false, true, -1, tda, 0);
@@ -3882,9 +3882,9 @@ public static final int WRAPPED_TEXT = 20; //type
             }
             if (rsInterface.type == 4) {
                 rsInterface.message = stream.readString().replaceAll(
-                        "RuneScape", "SolaraRsps");
-                if (rsInterface.message.toLowerCase().equals("the bank of SolaraRsps")) {
-                    rsInterface.message = "        The Bank of SolaraRsps";
+                        "RuneScape", "ScythiaRsps");
+                if (rsInterface.message.toLowerCase().equals("the bank of ScythiaRsps")) {
+                    rsInterface.message = "        The Bank of ScythiaRsps";
                 }
                 rsInterface.enabledMessage = stream.readString();
             }
@@ -5489,7 +5489,7 @@ public static final int WRAPPED_TEXT = 20; //type
         addScroll(id + 160, 190, 100, 200, 10);
         addSprite(id + 2, 0, directory);
 
-        addText(id + 3, "Solara", 0xAF6A1B, false, true, 0, tda, 2);
+        addText(id + 3, "Scythia", 0xAF6A1B, false, true, 0, tda, 2);
         addText(id + 4, "100% Drops", 0xAF6A1B, false, true, 0, tda, 2);
         addText(id + 5, "Regular Drops: 200", 0xAF6A1B, true, true, 0, tda, 2);
         addText(id + 6, "Rare Drops: 100", 0xAF6A1B, true, true, 0, tda, 2);

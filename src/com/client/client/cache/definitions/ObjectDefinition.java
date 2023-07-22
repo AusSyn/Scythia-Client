@@ -217,7 +217,7 @@ public final class ObjectDefinition {
 		}
 		if (i == 3192) {
 			objectDef.actions = new String[5];
-			objectDef.name = "Solara Scoreboard";
+			objectDef.name = "Scythia Scoreboard";
 			objectDef.actions[0] = "View";
 			objectDef.actions[1] = "View GIM";
 		}

@@ -441,7 +441,7 @@ public final class ItemDefinition {
                 break;
             case 18852:
                 itemDef.modelID = 64818;
-                itemDef.name = "@gre@Solara's Boots";
+                itemDef.name = "@gre@Scythia's Boots";
                 itemDef.modelZoom = 700;
                 itemDef.rotationY = 141;
                 itemDef.rotationX = 141;
@@ -3379,7 +3379,7 @@ public final class ItemDefinition {
                 break;
             case 18854:
                 itemDef.modelID = 64821;
-                itemDef.name = "Solara's Fullhelm";
+                itemDef.name = "Scythia's Fullhelm";
                 itemDef.description = "Torva full helm";
                 itemDef.modelZoom = 672;
                 itemDef.rotationY = 85;
@@ -3922,13 +3922,13 @@ public final class ItemDefinition {
                 break;
             case 915:
                 itemDef.modelID = 41156;
-                itemDef.name = "Solara MBox";
+                itemDef.name = "Scythia MBox";
                 itemDef.actions = new String[5];
                 itemDef.actions[0] = "Open";
                 break;
             case 21055:
                 itemDef.modelID = 50133;
-                itemDef.name = "Solara Secret Speical";
+                itemDef.name = "Scythia Secret Speical";
                 itemDef.actions = new String[5];
                 itemDef.actions[0] = "Open";
                 itemDef.modelZoom = 2800;
@@ -5345,7 +5345,7 @@ public final class ItemDefinition {
                 break;
             case 11063:
                 itemDef.modelID = 41064;
-                itemDef.name = "@cya@Bling Amulet of Solara's";
+                itemDef.name = "@cya@Bling Amulet of Scythia's";
                 itemDef.description = "a custom Item";
                 itemDef.modelZoom = 950;
                 itemDef.rotationY = 400;
@@ -6975,8 +6975,8 @@ public final class ItemDefinition {
                 break;
             case 18856:
                 itemDef.modelID = 64816;
-                itemDef.name = "@gre@Solara's 2H Sword";
-                itemDef.description = "Solara's 2H Sword";
+                itemDef.name = "@gre@Scythia's 2H Sword";
+                itemDef.description = "Scythia's 2H Sword";
                 itemDef.modelZoom = 1506;
                 itemDef.rotationY = 473;
                 itemDef.rotationX = 2042;
@@ -6993,8 +6993,8 @@ public final class ItemDefinition {
                 break;
             case 18868:
                 itemDef.modelID = 64819;
-                itemDef.name = "@gre@Solara's Wings";
-                itemDef.description = "Solara's 2H Sword";
+                itemDef.name = "@gre@Scythia's Wings";
+                itemDef.description = "Scythia's 2H Sword";
                 itemDef.modelOffsetY = 20;
                 itemDef.modelOffsetX = 0;
                 itemDef.modelOffset1 = 0;
@@ -7013,7 +7013,7 @@ public final class ItemDefinition {
             case 20100:
                 itemDef.modelID = 64830;
                 itemDef.name = "Darth Maul Platebody";
-                itemDef.description = "Solara's 2H Sword";
+                itemDef.description = "Scythia's 2H Sword";
                 itemDef.modelZoom = 1506;
                 itemDef.rotationY = 473;
                 itemDef.rotationX = 2042;
@@ -7033,7 +7033,7 @@ public final class ItemDefinition {
                 itemDef.newModelColor = new int[]{18};
                 itemDef.modelID = 64837;
                 itemDef.name = "Simba Platebody";
-                itemDef.description = "Solara's 2H Sword";
+                itemDef.description = "Scythia's 2H Sword";
                 itemDef.modelZoom = 1506;
                 itemDef.rotationY = 473;
                 itemDef.rotationX = 2042;
@@ -7053,7 +7053,7 @@ public final class ItemDefinition {
                 itemDef.newModelColor = new int[]{18};
                 itemDef.modelID = 64839;
                 itemDef.name = "Simba Platelegs";
-                itemDef.description = "Solara's 2H Sword";
+                itemDef.description = "Scythia's 2H Sword";
                 itemDef.modelZoom = 1506;
                 itemDef.rotationY = 473;
                 itemDef.rotationX = 2042;
@@ -7073,7 +7073,7 @@ public final class ItemDefinition {
                 itemDef.newModelColor = new int[]{18};
                 itemDef.modelID = 64844;
                 itemDef.name = "Simba Cape";
-                itemDef.description = "Solara's 2H Sword";
+                itemDef.description = "Scythia's 2H Sword";
                 itemDef.modelOffsetY = 20;
                 itemDef.modelOffsetX = 0;
                 itemDef.modelOffset1 = 0;
@@ -7092,7 +7092,7 @@ public final class ItemDefinition {
             case 20126:
                 itemDef.modelID = 64855;
                 itemDef.name = "Ryuk Cape";
-                itemDef.description = "Solara's 2H Sword";
+                itemDef.description = "Scythia's 2H Sword";
                 itemDef.modelZoom = 1506;
                 itemDef.rotationY = 473;
                 itemDef.rotationX = 2042;
@@ -7137,7 +7137,7 @@ public final class ItemDefinition {
             case 20130:
                 itemDef.modelID = 64859;
                 itemDef.name = "Ryuk Amulet";
-                itemDef.description = "Solara's 2H Sword";
+                itemDef.description = "Scythia's 2H Sword";
                 itemDef.modelZoom = 600;
                 itemDef.rotationY = 473;
                 itemDef.rotationX = 2042;
@@ -7160,7 +7160,7 @@ public final class ItemDefinition {
             case 20132:
                 itemDef.modelID = 64861;
                 itemDef.name = "Ryuk Ring";
-                itemDef.description = "Solara's 2H Sword";
+                itemDef.description = "Scythia's 2H Sword";
                 itemDef.modelZoom = 700;
                 itemDef.rotationY = 473;
                 itemDef.rotationX = 2042;
@@ -7183,7 +7183,7 @@ public final class ItemDefinition {
             case 20134:
                 itemDef.modelID = 64862;
                 itemDef.name = "Ryuk Sword (UnUpgraded)";
-                itemDef.description = "Solara's 2H Sword";
+                itemDef.description = "Scythia's 2H Sword";
                 itemDef.modelZoom = 1506;
                 itemDef.rotationY = 473;
                 itemDef.rotationX = 2042;
@@ -7206,7 +7206,7 @@ public final class ItemDefinition {
             case 20102:
                 itemDef.modelID = 64831;
                 itemDef.name = "Darth Maul Platelegs";
-                itemDef.description = "Solara's 2H Sword";
+                itemDef.description = "Scythia's 2H Sword";
                 itemDef.modelZoom = 1506;
                 itemDef.rotationY = 473;
                 itemDef.rotationX = 2042;
@@ -7225,7 +7225,7 @@ public final class ItemDefinition {
             case 20104:
                 itemDef.modelID = 64834;
                 itemDef.name = "Darth Maul Fullhelm";
-                itemDef.description = "Solara's 2H Sword";
+                itemDef.description = "Scythia's 2H Sword";
                 ItemDefinition itemDef7211129 = ItemDefinition.forID(1163);
                 itemDef.modelOffsetY = itemDef7211129.modelOffsetY;
                 itemDef.modelOffsetX = itemDef7211129.modelOffsetX;
@@ -7294,7 +7294,7 @@ public final class ItemDefinition {
                 break;
             case 18858:
                 itemDef.modelID = 64823;
-                itemDef.name = "Solara's Gloves";
+                itemDef.name = "Scythia's Gloves";
                 itemDef.description = "Torva platebody";
                 itemDef.modelZoom = 700;
                 itemDef.rotationY = 473;
@@ -7348,7 +7348,7 @@ public final class ItemDefinition {
                 break;
             case 18860:
                 itemDef.modelID = 64825;
-                itemDef.name = "Solara's Platebody";
+                itemDef.name = "Scythia's Platebody";
                 itemDef.description = "Torva platebody";
                 itemDef.modelZoom = 1506;
                 itemDef.rotationY = 473;
@@ -8462,7 +8462,7 @@ public final class ItemDefinition {
                 break;
             case 18864:
                 itemDef.modelID = 64827;
-                itemDef.name = "Solara's Platelegs";
+                itemDef.name = "Scythia's Platelegs";
                 itemDef.description = "Torva platelegs";
                 itemDef.modelZoom = 1740;
                 itemDef.rotationY = 474;

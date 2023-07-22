@@ -15,7 +15,7 @@ public class Configuration {
 	public static final int CLIENT_VERSION = 15;
 	public static int PORT = DEVELOPMENT_SERVER ? 43594 : 43594;
 	
-	public final static String CLIENT_NAME = "Solara";
+	public final static String CLIENT_NAME = "Scythia";
 	public static final boolean SEND_HASH = true;
 	public static  boolean upscaling = true;
 	public static boolean menuHovers = true;

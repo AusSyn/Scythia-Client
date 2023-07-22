@@ -2706,8 +2706,8 @@ public class ItemDef2 {
                 break;
             case 2791:
                 itemDef.modelID = 50309;
-                itemDef.name = "Solara's Shooter Body ";
-                itemDef.description = "Solara's Shooter Body ";
+                itemDef.name = "Scythia's Shooter Body ";
+                itemDef.description = "Scythia's Shooter Body ";
                 itemDef.maleEquip1 = 50310;
                 itemDef.femaleEquip1 = 50310;
                 itemDef.modelOffsetY = 0;
@@ -2724,8 +2724,8 @@ public class ItemDef2 {
                 break;
             case 2792:
                 itemDef.modelID = 50311;
-                itemDef.name = "Solara's Shooter Legs";
-                itemDef.description = "Solara's Shooter  ";
+                itemDef.name = "Scythia's Shooter Legs";
+                itemDef.description = "Scythia's Shooter  ";
                 itemDef.maleEquip1 = 50312;
                 itemDef.femaleEquip1 = 50312;
                 itemDef.modelOffsetY = 0;
@@ -2742,8 +2742,8 @@ public class ItemDef2 {
                 break;
             case 2793:
                 itemDef.modelID = 50313;
-                itemDef.name = "Solara's Shooter Helm ";
-                itemDef.description = "Solara's Shooter  ";
+                itemDef.name = "Scythia's Shooter Helm ";
+                itemDef.description = "Scythia's Shooter  ";
                 itemDef.maleEquip1 = 50314;
                 itemDef.femaleEquip1 = 50314;
                 itemDef.modelOffsetY = 0;
@@ -2760,8 +2760,8 @@ public class ItemDef2 {
                 break;
             case 2794:
                 itemDef.modelID = 50315;
-                itemDef.name = "Solara's Shooter Gloves ";
-                itemDef.description = "Solara's Shooter Gloves   ";
+                itemDef.name = "Scythia's Shooter Gloves ";
+                itemDef.description = "Scythia's Shooter Gloves   ";
                 itemDef.maleEquip1 = 50316;
                 itemDef.femaleEquip1 = 50316;
                 itemDef.modelOffsetY = 0;
@@ -2778,8 +2778,8 @@ public class ItemDef2 {
                 break;
             case 2797:
                 itemDef.modelID = 50317;
-                itemDef.name = "Solara's Shooter Boots";
-                itemDef.description = "Solara's Shooter  ";
+                itemDef.name = "Scythia's Shooter Boots";
+                itemDef.description = "Scythia's Shooter  ";
                 itemDef.maleEquip1 = 50317;
                 itemDef.femaleEquip1 = 50317;
                 itemDef.modelOffsetY = 0;
@@ -2796,8 +2796,8 @@ public class ItemDef2 {
                 break;
             case 2796:
                 itemDef.modelID = 50318;
-                itemDef.name = "Solara's Shooter Bow";
-                itemDef.description = "Solara's Shooter Bow ";
+                itemDef.name = "Scythia's Shooter Bow";
+                itemDef.description = "Scythia's Shooter Bow ";
                 itemDef.maleEquip1 = 50319;
                 itemDef.femaleEquip1 = 50319;
                 itemDef.modelOffsetY = 0;
