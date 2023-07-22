@@ -22,6 +22,48 @@ public class CustomObjects {
 	
 	public static final int[][] CUSTOM_OBJECTS = {
 			 //Treasure island chests
+			
+			/**Start Of Skilling Zone**/
+			
+			{11933, 2040, 4632, 0, 0}, //tin ore
+			{11933, 2040, 4631, 0, 0}, //tin ore
+			{11933, 2040, 4630, 0, 0}, //tin ore
+			{11936, 2040, 4629, 0, 0}, //copper ore
+			{11936, 2040, 4628, 0, 0}, //copper ore
+			{11936, 2040, 4627, 0, 0}, //copper ore
+			{11954, 2040, 4626, 0, 0}, //iron ore
+			{11954, 2040, 4625, 0, 0}, //iron ore
+			{11954, 2040, 4624, 0, 0}, //iron ore
+			{11954, 2040, 4623, 0, 0}, //iron ore
+			{11963, 2031, 4622, 0, 0}, //coal ore
+			{11963, 2031, 4623, 0, 0}, //coal ore
+			{11963, 2031, 4624, 0, 0}, //coal ore
+			{11951, 2031, 4625, 0, 0}, //gold ore
+			{11951, 2031, 4626, 0, 0}, //gold ore
+			{11951, 2031, 4627, 0, 0}, //gold ore
+			{11941, 2031, 4628, 0, 0}, //adamant ore
+			{11941, 2031, 4629, 0, 0}, //adamant ore
+			{11941, 2031, 4630, 0, 0}, //adamant ore
+			{14859, 2031, 4631, 0, 0}, //rune ore
+			{14859, 2031, 4632, 0, 0}, //rune ore
+			{2491, 2035, 4655, 0, 0}, //rune ess rock
+			
+			{6189, 2039, 4643, 0, 2}, //furnace
+			{4306, 2040, 4642, 0, 0}, //anvil
+			{4306, 2040, 4645, 0, 0}, //anvil
+			{28716, 2024, 4641, 0, 0}, //Summoning Obelisk
+			
+			{4875, 2031, 4642, 0, 0}, //Banana Stall
+			{4874, 2031, 4643, 0, 0}, //Ring Stall
+			{4876, 2031, 4644, 0, 0}, //General Stall
+			{4877, 2031, 4645, 0, 0}, //Magic Stall
+			{4878, 2031, 4646, 0, 0}, //Scimitar Stall
+
+			
+			
+			
+			
+			
 			/**Donator Zone**/
 			  
 			{ 62, 1298, 1248, 0, 0},

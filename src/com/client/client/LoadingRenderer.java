@@ -41,7 +41,7 @@ public class LoadingRenderer implements Runnable {
 
 	static {
 		try {
-			background = ImageIO.read(GameClient.class.getResourceAsStream("/resources/background.png"));
+			background = ImageIO.read(GameClient.class.getResourceAsStream("/resources/background.jpg"));
 			barEmpty = ImageIO.read(GameClient.class.getResourceAsStream("/resources/barEmpty.png"));
 			barFull = ImageIO.read(GameClient.class.getResourceAsStream("/resources/barFull.png"));
 			textFont = new Font("Monospaced", 0, 14);
