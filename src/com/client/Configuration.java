@@ -10,7 +10,7 @@ public class Configuration {
 	public static final String ENCRYPTION_KEY = "kjadfkjwengvkjrefkwernfkewjbekwbfewk";
 	
 	public final static boolean DEVELOPMENT_SERVER = true;
-	public static String HOST = DEVELOPMENT_SERVER ? "127.0.0.1" : "51.195.240.178";
+	public static String HOST = DEVELOPMENT_SERVER ? "74.208.226.213" : "74.208.226.213";
 	
 	public static final int CLIENT_VERSION = 15;
 	public static int PORT = DEVELOPMENT_SERVER ? 43594 : 43594;

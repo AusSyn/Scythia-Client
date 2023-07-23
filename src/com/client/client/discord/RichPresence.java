@@ -9,7 +9,7 @@ import club.minnced.discord.rpc.*;
 
 public class RichPresence {
 
-    private final String CLIENT_ID = "1116308639418953740";
+    private final String CLIENT_ID = "1132531025101209732";
 
     private DiscordRPC lib;
     private DiscordRichPresence presence;
