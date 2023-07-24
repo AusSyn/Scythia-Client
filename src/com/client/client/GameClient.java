@@ -1456,14 +1456,14 @@ public class GameClient extends RSApplet {
                     break;
             }
         }
-        smallText.drawCenteredText(0xffffff, CHANNELBUTTON_X[0] + 28 + xPosOffset, "All", 157 + yPosOffset, true);
-        smallText.drawCenteredText(0xffffff, CHANNELBUTTON_X[1] + 28 + xPosOffset, "Game", 152 + yPosOffset, true);
-        smallText.drawCenteredText(0xffffff, CHANNELBUTTON_X[2] + 28 + xPosOffset, "Public", 152 + yPosOffset, true);
-        smallText.drawCenteredText(0xffffff, CHANNELBUTTON_X[3] + 28 + xPosOffset, "Private", 152 + yPosOffset, true);
-        smallText.drawCenteredText(0xffffff, CHANNELBUTTON_X[4] + 28 + xPosOffset, "Clan", 152 + yPosOffset, true);
-        smallText.drawCenteredText(0xffffff, CHANNELBUTTON_X[5] + 28 + xPosOffset, "Trade", 152 + yPosOffset, true);
-        smallText.drawCenteredText(0xffffff, CHANNELBUTTON_X[6] + 28 + xPosOffset, "Duel", 152 + yPosOffset, true);
-        smallText.drawCenteredText(0xffffff, 459 + xPosOffset, "Report Abuse", 157 + yPosOffset, true);
+        smallText.drawCenteredText(0xffffff, CHANNELBUTTON_X[0] + 28 + xPosOffset, "@cya@All", 157 + yPosOffset, true);
+        smallText.drawCenteredText(0xffffff, CHANNELBUTTON_X[1] + 28 + xPosOffset, "@cya@Game", 152 + yPosOffset, true);
+        smallText.drawCenteredText(0xffffff, CHANNELBUTTON_X[2] + 28 + xPosOffset, "@cya@Public", 152 + yPosOffset, true);
+        smallText.drawCenteredText(0xffffff, CHANNELBUTTON_X[3] + 28 + xPosOffset, "@cya@Private", 152 + yPosOffset, true);
+        smallText.drawCenteredText(0xffffff, CHANNELBUTTON_X[4] + 28 + xPosOffset, "@cya@Clan", 152 + yPosOffset, true);
+        smallText.drawCenteredText(0xffffff, CHANNELBUTTON_X[5] + 28 + xPosOffset, "@cya@Trade", 152 + yPosOffset, true);
+        smallText.drawCenteredText(0xffffff, CHANNELBUTTON_X[6] + 28 + xPosOffset, "@cya@Duel", 152 + yPosOffset, true);
+        smallText.drawCenteredText(0xffffff, 459 + xPosOffset, "@cya@Report Abuse", 157 + yPosOffset, true);
         smallText.drawCenteredText(textColor[gameChatMode], 62 + 28 + xPosOffset, "All", 163 + yPosOffset, true);
         smallText.drawCenteredText(textColor[publicChatMode], CHANNELBUTTON_X[2] + 28 + xPosOffset,
                 text[publicChatMode], 163 + yPosOffset, true);

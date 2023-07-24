@@ -1210,6 +1210,18 @@ public final class MobDefinition {
 			npc.sizeXZ = 35;
 			npc.sizeY = 35;
 		break;
+		case 10_001:
+			npc.name = "x2 KC Pet (Metagross)";
+			npc.models = new int[] { 50624 };
+			npc.standAnim = 808;
+			npc.walkAnim = 819;
+			npc.drawMinimapDot = true;
+			npc.actions = new String[] {null, null, null, null, null};
+			npc.combatLevel = 999;
+			npc.squaresNeeded = 2;
+			npc.sizeXZ = 110;
+			npc.sizeY = 110;
+			break;
 		case 1042:
 			npc.name = "Blue Eyes White Dragon Pet";
 			npc.models = new int[] {50825};
