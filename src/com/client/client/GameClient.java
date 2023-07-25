@@ -705,7 +705,7 @@ public class GameClient extends RSApplet {
             rebuildFrame(size, width, height);
             saveSettings();
             if (!isWebclient() && mainFrame != null) {
-                Jframe.setClientIcon();
+                //Jframe.setClientIcon();
             }
         }
     }
