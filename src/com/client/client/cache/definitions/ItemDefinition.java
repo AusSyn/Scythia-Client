@@ -1595,7 +1595,7 @@ public final class ItemDefinition {
                 break;
 
             case 18984:
-                itemDef.name = "Thanos Pet";
+                itemDef.name = "Darius Pet";
                 itemDef.groundActions = new String[]{null, null, "Take", null, null};
                 itemDef.actions = new String[]{null, null, "Summon", null, "Drop"};
                 itemDef.modelZoom = 6500;
@@ -4128,11 +4128,11 @@ public final class ItemDefinition {
                 break;
             case 10484:
                 itemDef.modelID = 41012;
-                itemDef.name = "Flaming Katana";
-                itemDef.description = "Hot katana";
-                itemDef.modelZoom = 1272;
-                itemDef.rotationY = 250;
-                itemDef.rotationX = 0;
+                itemDef.name = "Scythia Beginner Scythe";
+                itemDef.description = "Scythia Beginner Weapon";
+                itemDef.modelZoom = 2113;
+                itemDef.rotationY = 548;
+                itemDef.rotationX = 1800;
                 itemDef.modelOffset1 = 0;
                 itemDef.modelOffsetY = 0;
                 itemDef.maleEquip1 = 41013;
@@ -7266,13 +7266,13 @@ public final class ItemDefinition {
                 break;
             case 19994://thats Item ing id
                 itemDef.modelID = 64801;//model inventory model id
-                itemDef.name = "@red@Ice Coin";
-                itemDef.modelZoom = 1800;//zoom is pretty much the zoom you can change it
+                itemDef.name = "@yel@Scythia Coin";
+                itemDef.modelZoom = 1200;//zoom is pretty much the zoom you can change it
                 itemDef.rotationY = 473;//rotation is side roations x/y
                 itemDef.rotationX = 2035;
                 itemDef.stackable = true;
                 itemDef.actions = new String[5];
-                itemDef.actions[3] = "Add-to-pouch";
+                itemDef.actions[0] = "Add-to-pouch";
                 break;
             case 18904:
                 itemDef.modelID = 64041;
@@ -8132,11 +8132,11 @@ public final class ItemDefinition {
                 break;
             case 20523:
                 itemDef.modelID = 41091;
-                itemDef.name = "Yellow Blaster";
-                itemDef.description = "Yellow Blaster";
-                itemDef.modelZoom = 1506;
-                itemDef.rotationY = 473;
-                itemDef.rotationX = 2042;
+                itemDef.name = "Scythia Bow";
+                itemDef.description = "Scythia Starter Bow";
+                itemDef.modelZoom = 1661;
+                itemDef.rotationY = 320;
+                itemDef.rotationX = 61;
                 itemDef.modelOffset1 = 0;
                 itemDef.modelOffsetY = 0;
                 itemDef.maleEquip1 = 41090;
@@ -8145,8 +8145,6 @@ public final class ItemDefinition {
                 itemDef.groundActions[2] = "Take";
                 itemDef.actions = new String[5];
                 itemDef.actions[1] = "Wear";
-                itemDef.actions[2] = "Check-charges";
-                itemDef.actions[4] = "Drop";
                 break;
             case 20520:
                 itemDef.modelID = 41093;

@@ -1187,7 +1187,7 @@ public final class MobDefinition {
 			npc.sizeY = 110;
 		break;
 		case 5279:
-			npc.name = "Thanos Pet";
+			npc.name = "Darius Pet";
 			npc.models = new int[] { 65482 };
 			npc.standAnim = 808;
 			npc.walkAnim = 819;

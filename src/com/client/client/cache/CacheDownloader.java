@@ -16,7 +16,7 @@ public class CacheDownloader implements Runnable {
 	public static final String CACHE_PATH = System.getProperty("user.home") + File.separator + ".scythia" + File.separator;
 	private static final String ZIP_URL = "https://www.spiralrsps.com/scythia/.scythia.zip";
 	private static final String VERSION_FILE = CACHE_PATH + "version.txt";
-	private static final int CACHE_VERSION = 81;
+	private static final int CACHE_VERSION = 82;
 
 	private CacheDownloader.GUI g;
 
