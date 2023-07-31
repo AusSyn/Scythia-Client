@@ -50,6 +50,104 @@ public class RSInterface {
         this.atActionType = atActionType;
         interfaceCache[identifier] = this;
     }
+    
+    public static void refferal(TextDrawingArea[] TDA) {
+        int interfaceId = 57750;
+        int children = 0;
+        int totalChildren = 15;
+        RSInterface Interface = RSInterface.addInterface(interfaceId);
+        RSInterface.setChildren(totalChildren, Interface);
+
+        interfaceId++;
+        RSInterface.addSpriteLoader(interfaceId, 1406);
+        RSInterface.setBounds(interfaceId, 29, 72, children, Interface);
+        
+        interfaceId++;
+        children++;
+        RSInterface.addText(interfaceId, "How did you find us?", TDA, 2, 0xffb000, true, true);
+        RSInterface.setBounds(interfaceId, 255, 83, children, Interface);
+        
+        interfaceId++;
+        children++;
+        RSInterface.addHoverButtonWSpriteLoader(interfaceId, 737, 15, 15, "Close Window", -1, interfaceId + 1, 1); // Close button.
+        RSInterface.setBounds(interfaceId, 461, 81, children, Interface);
+        
+        interfaceId++;
+        children++;
+        RSInterface.addHoveredImageWSpriteLoader(interfaceId, 738, 15, 15, interfaceId + 1); // Close button hover.
+        RSInterface.setBounds(interfaceId, 461, 81, children, Interface);
+        
+        interfaceId += 2;
+        children++;
+        RSInterface.addText(interfaceId, "Category", TDA, 1, 0xffb000, false, true);
+        RSInterface.setBounds(interfaceId, 85, 114, children, Interface);
+        
+        interfaceId++;
+        children++;
+        RSInterface.addText(interfaceId, "Selection", TDA, 1, 0xffb000, false, true);
+        RSInterface.setBounds(interfaceId, 232, 114, children, Interface);
+        
+        interfaceId++;
+        children++;
+        RSInterface.addText(interfaceId, "Rewards", TDA, 1, 0xffb000, false, true);
+        RSInterface.setBounds(interfaceId, 378, 114, children, Interface);
+        
+        interfaceId++;
+        children++;
+        RSInterface.addHoverButtonWSpriteLoader(interfaceId, 1407, 120, 31, "Confirm", -1, interfaceId + 1, 1);
+        RSInterface.setBounds(interfaceId, 51, 213, children, Interface);
+        
+        interfaceId++;
+        children++;
+        RSInterface.addHoveredImageWSpriteLoader(interfaceId, 1408, 120, 31, interfaceId + 1);
+        RSInterface.setBounds(interfaceId, 51, 213, children, Interface);
+        
+        interfaceId += 2;
+        children++;
+        RSInterface.addText(interfaceId, "Confirm", TDA, 1, 0xffb000, false, true);
+        RSInterface.setBounds(interfaceId, 88, 221, children, Interface);
+        
+        interfaceId++;
+        children++;
+        RSInterface.addHoverableText(interfaceId, "Youtubers", "Select", TDA, 0, false, true, 83, 0xffb000, ColorConstants.WHITE);
+        RSInterface.setBounds(interfaceId, 66, 138, children, Interface);
+        
+        interfaceId++;
+        children++;
+        RSInterface.addHoverableText(interfaceId, "Websites", "Select", TDA, 0, false, true, 83, 0xffb000, ColorConstants.WHITE);
+        RSInterface.setBounds(interfaceId, 66, 159, children, Interface);
+        
+        interfaceId++;
+        children++;
+        RSInterface.addHoverableText(interfaceId, "Other", "Select", TDA, 0, false, true, 83, 0xffb000, ColorConstants.WHITE);
+        RSInterface.setBounds(interfaceId, 66, 180, children, Interface);
+        
+        interfaceId++;
+        children++;
+        RSInterface.itemGroup(interfaceId, 3, 10, 16, 16);
+        RSInterface.setBounds(interfaceId, 340, 141, children, Interface);
+        
+        interfaceId++;
+        children++;
+        RSInterface Interface1 = RSInterface.addInterface(interfaceId);
+        RSInterface.setBounds(interfaceId, 190, 132, children, Interface); // scrollTab1
+
+        Interface1.totalChildren(20);
+
+        Interface1.width = 123;
+        Interface1.height = 122;
+        Interface1.scrollMax = 184;
+        
+        for(int i = 0; i < 10; i++) {
+            interfaceId++;
+            RSInterface.addHoverableText(interfaceId, "Line #" + i, "Select", TDA, 0, false, true, 83, 0xffb000, ColorConstants.WHITE);
+            Interface1.child(10 + i, interfaceId, 3, 7 + i * 20);
+            
+            interfaceId++;
+            RSInterface.addSpriteLoader(interfaceId, 1409);
+            Interface1.child(i, interfaceId, 0, 3 + i * 40);
+        }
+    }
 
     private static void BoxRewardList(TextDrawingArea[] textDrawingAreas) {
         String dir = "ok/ok";
@@ -4004,6 +4102,7 @@ public static final int WRAPPED_TEXT = 20; //type
         CollectionLog.customCollectionLog(textDrawingAreas);
         fuser(textDrawingAreas);
         BoxRewardList(textDrawingAreas);
+        refferal(textDrawingAreas);
         starterProgression();
         upgradeInterface(textDrawingAreas);
         fornitureChooser(textDrawingAreas);

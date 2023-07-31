@@ -335,16 +335,16 @@ public class Jframe extends GameClient implements ActionListener {
 					openURL("https://discord.gg/8cp2J55Q2A");
 					break;
 				case "Store":
-					openURL("https://scythia.gamepayments.net/");
+					openURL("https://scythiarsps.gamepayments.net/");
 					break;
 				case "Vote":
-					openURL("https://scythia.everythingrs.com/services/vote");
+					openURL("https://scythiarsps.everythingrs.com/services/vote");
 					break;
 				case "HiScores":
 					openURL("https://discord.gg/8cp2J55Q2A");
 					break;
 				case "Scythia":
-					openURL("https://discord.gg/8cp2J55Q2A");
+					openURL("https://discord.gg/scythia");
 					break;
 				}
 
