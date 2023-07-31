@@ -2038,7 +2038,7 @@ public final class MobDefinition {
 			npc.sizeY = 140;
 		break;
 		case 4981:
-			npc.name = "@yel@Charizard";
+			npc.name = "@yel@Mega Charizard";
 			npc.models = new int[] { 64814 };
 			npc.standAnim = 808;
 			npc.walkAnim = 819;

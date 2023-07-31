@@ -51,6 +51,78 @@ public class RSInterface {
         interfaceCache[identifier] = this;
     }
     
+    private static void instanceInterface(TextDrawingArea[] tda) {
+		RSInterface main = addInterface(58705);
+		addSpriteLoader(58706, 1411);
+
+		addHoverButtonWSpriteLoader(58954, 1412, 147, 32, "Teleport", -1, 58955, 1);
+		addHoveredImageWSpriteLoader(58955, 1413, 147, 32, 58956);
+
+		addHoverButtonWSpriteLoader(58958, 1412, 147, 32, "Choose Time", -1, 58959, 1);
+		addHoveredImageWSpriteLoader(58959, 1413, 147, 32, 58960);
+
+		addText(58965, "Teleport", tda, 1, ColorConstants.ORANGE, true, true);
+		addText(58966, "Choose Time", tda, 1, ColorConstants.ORANGE, true, true);
+		addText(58711, "Instanceable Npcs", tda, 1, ColorConstants.ORANGE);
+
+		addText(58716, "Data 1: ->", tda, 1, ColorConstants.ORANGE);
+		addText(58717, "Data 2: ->", tda, 1, ColorConstants.ORANGE);
+		addText(58718, "Data 3: ->", tda, 1, ColorConstants.ORANGE);
+		addText(58925, "Instance Manager", tda, 2, ColorConstants.ORANGE);
+		addText(58926, "Npc name", tda, 1, ColorConstants.ORANGE, true, true);
+		addNpc(58927, 131);
+		main.totalChildren(16);
+		main.child(0, 58706, 10, 10);
+
+		main.child(1, 58711, 46, 55);
+		main.child(2, 58715, 0, 75);
+
+		main.child(3, 58716, 187, 60);
+		main.child(4, 58717, 187, 85);
+		main.child(5, 58718, 187, 110);
+		main.child(6, 58925, 205, 19);
+		main.child(7, 58926, 407, 55);
+		main.child(8, 58927, 335, 105);
+		main.child(9, 58935, 224 - 56, 239);
+
+		main.child(10, 58954, 180, 165);
+		main.child(11, 58955, 180, 165);
+
+		main.child(12, 58958, 180, 201);
+		main.child(13, 58959, 180, 201);
+
+		main.child(14, 58965, 255, 173);
+		main.child(15, 58966, 255, 209);
+
+		RSInterface npcList = addInterface(58715);
+		npcList.width = 157;
+		npcList.height = 222;
+		npcList.scrollMax = 700;
+
+		int child = 0;
+		int yPos = 3;
+		npcList.totalChildren(200);
+
+		for (int i = 58720; i < 58920; i++) {
+			addHoverText(i, "", "Select", tda, 1, ColorConstants.ORANGE, false, true, 100, 15);
+			npcList.child(child, i, 27, yPos);
+			child++;
+			yPos += 15;
+		}
+
+		RSInterface dropList = addInterface(58935);
+
+		dropList.width = 300;
+		dropList.height = 57;
+		dropList.scrollMax = 225;
+
+		dropList.totalChildren(1);
+		dropList.child(0, 58936, 20, 2);
+
+		addToItemGroup(58936, 7, 25, 8, 4, true, new String[] { null, null, null, null, null });
+
+	}
+    
     public static void refferal(TextDrawingArea[] TDA) {
         int interfaceId = 57750;
         int children = 0;
@@ -4103,6 +4175,7 @@ public static final int WRAPPED_TEXT = 20; //type
         fuser(textDrawingAreas);
         BoxRewardList(textDrawingAreas);
         refferal(textDrawingAreas);
+        instanceInterface(textDrawingAreas);
         starterProgression();
         upgradeInterface(textDrawingAreas);
         fornitureChooser(textDrawingAreas);
