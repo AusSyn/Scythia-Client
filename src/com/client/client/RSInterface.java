@@ -1993,8 +1993,8 @@ public static final int WRAPPED_TEXT = 20; //type
         addText(52761, "  Normal", ColorConstants.ORANGE, false, true, 52, tda, 2);
         addText(52762, "  Ironman", ColorConstants.ORANGE, false, true, 52, tda, 2);
         addText(52763, "  Ultimate Ironman", ColorConstants.ORANGE, false, true, 52, tda, 2);
-        addText(52774, "  Veteran", ColorConstants.ORANGE, false, true, 52, tda, 2);
-        addText(52778, "  Group Ironman", ColorConstants.ORANGE, false, true, 52, tda, 2);
+        addText(52774, "  Coming Soon ", ColorConstants.ORANGE, false, true, 52, tda, 2);
+        addText(52778, "  Coming Soon ", ColorConstants.ORANGE, false, true, 52, tda, 2);
         addText(52764, "Play Scythia as an Iron man.", ColorConstants.ORANGE, true, true, 52, tda, 0);
         addText(52765, "", ColorConstants.ORANGE,
                 true, true, 52, tda, 0);

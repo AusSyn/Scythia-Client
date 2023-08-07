@@ -183,6 +183,11 @@ public final class ObjectDefinition {
 			objectDef.name = "Donator Gambling Barrier";
 			objectDef.actions[0] = "Pass";
 		}
+		if (i == 65513) {
+			objectDef.actions = new String[5];
+			objectDef.name = "Welcome to Scythia!";
+			objectDef.objectModelIDs = new int [] {65513};
+		}
 		if (i == 4470) {
 			objectDef.actions = new String[5];
 			objectDef.name = "Electric Barrier";
@@ -194,7 +199,7 @@ public final class ObjectDefinition {
 			objectDef.actions = new String[5];
 			objectDef.actions[0] = "Open-Bank";
 			objectDef.actions[1] = "@or2@Open-POS";
-			objectDef.name = "@or1@Bank Booth";
+			objectDef.name = "@or1@Scythia Bank Booth";
 		}
 		
 		if ( i == 2009) {

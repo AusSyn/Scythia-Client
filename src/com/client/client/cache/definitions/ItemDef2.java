@@ -318,16 +318,16 @@ public class ItemDef2 {
                 break;
             case 21014:
                 itemDef.modelID = 50083;
-                itemDef.name = "@red@ Beginner Staff";
-                itemDef.description = "Beginner Staff";
+                itemDef.name = "@red@ Scythia Staff";
+                itemDef.description = "Scythia Staff";
                 itemDef.maleEquip1 = 50084;
                 itemDef.femaleEquip1 = 50084;
                 itemDef.modelOffsetY = 0;
                 itemDef.modelOffsetX = 0;
                 itemDef.modelOffset1 = 0;
-                itemDef.modelZoom = 1100;
-                itemDef.rotationX = 0;
-                itemDef.rotationY = 400;
+                itemDef.modelZoom = 2270;
+                itemDef.rotationX = 1017;
+                itemDef.rotationY = 652;
                 itemDef.groundActions = new String[5];
                 itemDef.groundActions[2] = "Take";
                 itemDef.actions = new String[5];
