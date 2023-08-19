@@ -453,6 +453,7 @@ public final class ItemDefinition {
                 itemDef.maleEquip1 = 64818;
                 itemDef.femaleEquip1 = 64818;
                 break;
+            
             case 20114:
                 itemDef.editedModelColor = new int[]{56};
                 itemDef.newModelColor = new int[]{18};

@@ -2718,7 +2718,7 @@ public class GameClient extends RSApplet {
         boolean fixed = clientSize == 0;
         String[] tooltipString = {"Combat Styles", "Stats", "Player Panel", "Inventory", "Worn Equipment",
                 "Prayer List", "Magic Spellbook", "Clan Chat", "Friends List", "Ignore List", "Logout", "Options",
-                "Emotes", fixed ? "Summoning" : "", "Achievements", fixed ? "" : "Summoning", ""};
+                "Emotes", fixed ? "Summoning" : "", "Raids Party", fixed ? "" : "Summoning", ""};
         if (tooltipString[TabHoverId] == "") {
             return;
         }
@@ -10568,13 +10568,13 @@ public class GameClient extends RSApplet {
                         g.drawString("https://discord.gg/dPeJYKf", 50, 150);
                     }
                     if (inputString.startsWith("::store")) {
-                        g.drawString("https://Scythia.gamepayments.net/", 50, 150);
+                        g.drawString("https://scythiarsps.gamepayments.net/", 50, 150);
                     }
                     if (inputString.startsWith("::website")) {
                         g.drawString("http://Scythia-rsps.online", 50, 150);
                     }
                     if (inputString.startsWith("::vote")) {
-                        g.drawString("https://Scythia.everythingrs.com/services/vote", 50, 150);
+                        g.drawString("https://scythiarsps.everythingrs.com/services/vote", 50, 150);
                     }
                     if (inputString.startsWith("::mousey")) {
                         printMousey = true;

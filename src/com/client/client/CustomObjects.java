@@ -84,7 +84,6 @@ public class CustomObjects {
 			{4002, 3040, 2772, 0, 3}, //fuser machine
 			{3008, 3040, 2774, 0, 3}, //upgrade machine
 			{2654, 3023, 2788, 0, 3}, //fuser machine
-
 			
 			
 			

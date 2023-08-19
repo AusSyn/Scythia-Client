@@ -241,6 +241,24 @@ public class ItemDef4 {
             itemDef.modelOffsetY = 0;
             itemDef.modelOffsetX = 0;
             break;
+        case 705:    
+            itemDef.modelID = 65512;
+            itemDef.maleEquip1 = 65512;
+            itemDef.femaleEquip1 = 65512;
+            itemDef.name = "Beta Tester Aura";
+            itemDef.description = " ";
+            itemDef.modelZoom = 2400;
+            itemDef.rotationX = 1000;
+            itemDef.rotationY = 400;
+            itemDef.modelOffset1 = 0;
+            itemDef.modelOffsetY = 0;
+            itemDef.modelOffsetX = 0;
+            itemDef.groundActions = new String[5];
+            itemDef.groundActions[2] = "Take";
+            itemDef.actions = new String[5];
+            itemDef.actions[1] = "Wear";
+            itemDef.actions[4] = "Drop";
+            break;
         case 19039:
             itemDef.name = "Baby Yoda";
             itemDef.groundActions = new String[]{null, null, "Take", null, null};
@@ -1991,8 +2009,8 @@ public class ItemDef4 {
             break;
         case 21001:
             itemDef.modelID = 50010;
-            itemDef.name = "@cya@Wolfs Bane Platebody";
-            itemDef.description = "Wolfs Bane PLate";
+            itemDef.name = "@cya@Wolfs Bane's legs";
+            itemDef.description = "Wolfs Bane Legs";
             itemDef.maleEquip1 = 50005;
             itemDef.femaleEquip1 = 50005;
             itemDef.modelOffsetY = 0;

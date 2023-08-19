@@ -10,6 +10,7 @@ import com.client.client.util.ColorConstants;
 import com.client.client.Interfaces.AchievementInterface;
 import com.client.client.Interfaces.PlayerPanelNew;
 import com.client.client.Interfaces.CollectionLog;
+import com.client.client.Interfaces.Mini_Me;
 
 @SuppressWarnings("all")
 public class RSInterface {
@@ -41,7 +42,26 @@ public class RSInterface {
         tab.width = width;
         tab.height = height;
     }
+    
+    public static void addChar(int ID, int zoom) {
+		RSInterface t = interfaceCache[ID] = new RSInterface();
+		t.id = ID;
+		t.parentID = ID;
+		t.type = 6;
+		t.atActionType = 0;
+		t.contentType = 3192;
+		t.width = 140;
+		t.height = 190;
+		t.transparancy = 0;
+		t.hoverType = 0;
+		t.modelZoom = 3500;
+		t.modelRotation1 = 30;
+		t.modelRotation2 = 0;
+		t.disabledAnimationId = -1;
+		t.enabledAnimationId = -1;
+	}
 
+    
     public RSInterface(int identifier, int width, int height, int type, int atActionType) {
         id = identifier;
         this.width = width;
@@ -304,117 +324,6 @@ public class RSInterface {
         main.child(0, 48305, 35 + 100 - 8 + 330 + 5, 275 + 8 + 5 - 250);
         main.child(1, 48306, 11 + 102 + 330 + 5, 305 + 5 + 5 - 250);
         main.child(2, 48307, 11 + 106 + 330 + 5, 305 - 5 + 5 - 250);
-    }
-
-    public static void achievements(TextDrawingArea[] tda) {
-        RSInterface tab = addTabInterface(41750);
-        RSInterface options = addTabInterface(41800);
-        RSInterface points = addTabInterface(41880);
-        RSInterface rewards = addTabInterface(41900);
-
-        int id = 41760;
-        int c = 0;
-        int x = 10;
-        int y = 10;
-        tab.totalChildren(24);
-        addSpriteLoader(id, 1252);
-        tab.child(c++, id++, 0 + x, 0 + y);
-
-        addHoverButtonWSpriteLoader(id, 1015, 16, 16, "Close Window", 0, id + 1, 1);
-        tab.child(c++, id++, 460 + x, 3 + y);
-        addHoveredImageWSpriteLoader(id, 1016, 16, 16, id + 1);
-        tab.child(c++, id++, 460 + x, 3 + y);
-
-        id++;
-
-        addText(id, "Achievements", 0xff9b00, true, true, 100, tda, 2);
-        tab.child(c++, id++, 240 + x, 5 + y);
-
-        addConfigButtonWSpriteLoader(id, 41750, 1025, 1025, 119, 21, "Easy", 0, 5, 1090);
-        tab.child(c++, id++, 8 + x, 22 + y);
-        addConfigButtonWSpriteLoader(id, 41750, 1025, 1025, 119, 19, "Medium", 1, 5, 1090);
-        tab.child(c++, id++, 124 + x, 22 + y);
-        addConfigButtonWSpriteLoader(id, 41750, 1025, 1025, 119, 19, "Hard", 2, 5, 1090);
-        tab.child(c++, id++, 242 + x, 22 + y);
-        addConfigButtonWSpriteLoader(id, 41750, 1025, 1025, 119, 19, "Elite", 3, 5, 1090);
-        tab.child(c++, id++, 360 + x, 22 + y);
-
-        addText(id, "Easy", 0xff9b00, true, true, 100, tda, 1);
-        tab.child(c++, id++, 65 + x, 24 + y);
-        addText(id, "Medium", 0xff9b00, true, true, 100, tda, 1);
-        tab.child(c++, id++, 182 + x, 24 + y);
-        addText(id, "Hard", 0xff9b00, true, true, 100, tda, 1);
-        tab.child(c++, id++, 300 + x, 24 + y);
-        addText(id, "Elite", 0xff9b00, true, true, 100, tda, 1);
-        tab.child(c++, id++, 418 + x, 24 + y);
-
-        addText(id, "" + id, 0xff9b00, true, true, 100, tda, 2);
-        tab.child(c++, id++, 90 + x, 56 + y);
-        addText(id, "" + id, 0xff9b00, true, true, 100, tda, 2);
-        tab.child(c++, id++, 320 + x, 65 + y);
-
-        addText(id, "" + id, 0xffffff, false, true, 100, tda, 1);
-        tab.child(c++, id++, 215 + x, 85 + y);
-
-        for (int i = 0; i < 6; i++) {
-            addText(id, "" + id, 0xffffff, false, true, 100, tda, 0);
-            tab.child(c++, id++, 215 + x, 108 + y);
-            y += 13;
-        }
-        y = 10;
-
-        tab.child(c++, 41800, 10 + x, 77 + y);
-        tab.child(c++, 41880, 180 + x, 222 + y);
-        tab.child(c++, 41900, 339 + x, 222 + y);
-
-        options.width = 144;
-        options.height = 218;
-        options.scrollMax = 900;
-        options.totalChildren(60);
-
-        c = 0;
-        id = 41805;
-        y = 0;
-        for (int i = 0; i < 60; i++) {
-            addClickableText(id, "" + id, "Select", tda, 0, 0xeb981f, false, true, 632);
-            options.child(c++, id++, 3, y + 2);
-
-            y += 15;
-        }
-
-        points.width = 121;
-        points.height = 72;
-        points.scrollMax = 165;
-        points.totalChildren(15);
-
-        c = 0;
-        id = 41881;
-        y = 0;
-        for (int i = 0; i < 15; i++) {
-            addText(id, "" + id, 0xffffff, false, true, 100, tda, 0);
-            points.child(c++, id++, 3, y + 2);
-
-            y += 15;
-        }
-
-        rewards.width = 121;
-        rewards.height = 72;
-        rewards.scrollMax = 165;
-        rewards.totalChildren(9);
-
-        c = 0;
-        id = 41901;
-        y = 0;
-        for (int i = 0; i < 3; i++) {
-            itemGroup(id, 1, 1, 5, 5);
-            rewards.child(c++, id++, 3, y + 2);
-            itemGroup(id, 1, 1, 5, 5);
-            rewards.child(c++, id++, 35, y + 2);
-            itemGroup(id, 1, 1, 5, 5);
-            rewards.child(c++, id++, 70, y + 2);
-            y += 30;
-        }
-
     }
 
     public int layerColor = -1;
@@ -4169,6 +4078,7 @@ public static final int WRAPPED_TEXT = 20; //type
         killcounterInterface();
         ScratchCard(textDrawingAreas);
         raids(textDrawingAreas);
+        Mini_Me.miniMeInterface(textDrawingAreas);
         itemInformation(textDrawingAreas);
         teleportInterface(textDrawingAreas);
         CollectionLog.customCollectionLog(textDrawingAreas);
@@ -4182,12 +4092,10 @@ public static final int WRAPPED_TEXT = 20; //type
         constructionWaiting();
         editClan(textDrawingAreas);
         questTabInterfaceNew();
-        AchievementsNew();
         AchievementInterface.unpack(textDrawingAreas);
         PlayerPanelNew.playerPanelInterface(textDrawingAreas);
         overloadTimer(textDrawingAreas);
         damageTimer(textDrawingAreas);
-        achievements(textDrawingAreas);
         newStarter(textDrawingAreas);
         Starter(textDrawingAreas);
         staffTabInterface(textDrawingAreas);
@@ -5478,55 +5386,6 @@ public static final int WRAPPED_TEXT = 20; //type
         }
         rsi.child(87, 18535, 472, 21);
     }
-
-
-    private static void AchievementsNew() {
-
-        RSInterface tab = addTabInterface(27600);
-        RSInterface scroll = addTabInterface(27700);
-        addSpriteLoader(28024, 1058);
-        addSpriteLoader(28025, 1061);
-        addSpriteLoader(28026, 1061);
-
-        addText(45001, "Achievements", fonts, 2, 16750623, false, true);
-
-
-        tab.totalChildren(5);
-        tab.child(0, 28024, 2, 65);
-        tab.child(1, 28025, 5, 11);
-        tab.child(2, 28026, 5, 37);
-
-        tab.child(3, 27700, -6, 67);
-        tab.child(4, 45001, 18, 14);
-
-        scroll.width = 174;
-        scroll.height = 183;
-        scroll.scrollMax = 1800;
-        scroll.totalChildren(112);
-
-        /** TEXT **/
-        int k = 0;
-        int y = 25;
-        for (int i = 45005; i < 45116; i++) {
-            scroll.child(k, i, 12, y);
-            y += 16;
-            k++;
-            if (i == 45035 || i == 45068 || i == 45102 || i >= 45112) {
-                addText(i, "", fonts, 1, 0xFF8900, false, true);
-            } else {
-                addClickableText(i, "", "Select", fonts, 1, 0xFF8900, 167, 13);
-            }
-        }
-        addText(45777, "Easy Tasks", fonts, 2, 0xFF9900, false, true);
-        scroll.child(k, 45777, 12, 6);
-        addText(45036, "Medium Tasks", fonts, 2, 0xFF9900, false, true);
-        addText(45069, "Hard Tasks", fonts, 2, 0xFF9900, false, true);
-        addText(45103, "Elite Tasks", fonts, 2, 0xFF9900, false, true);
-        addText(45113, "Pking Tasks", fonts, 2, 0xFF9900, false, true);
-
-
-    }
-
 
     private static void questTabInterfaceNew() {
 

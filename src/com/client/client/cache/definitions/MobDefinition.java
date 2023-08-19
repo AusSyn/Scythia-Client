@@ -416,7 +416,7 @@ public final class MobDefinition {
 			npc.sizeY = 150;
 		break;
 		case 1416:
-			npc.name = "Wr3cked's Girl";
+			npc.name = "Witch";
 			npc.models = new int[] { 50721 };
 			//npc.boundDim = 1;
 			npc.standAnim = 808;
@@ -686,8 +686,8 @@ public final class MobDefinition {
 			npc.actions[1] = "@gre@Attack";
 			npc.combatLevel = 999;
 			npc.squaresNeeded = 2;
-			npc.sizeXZ = 200;
-			npc.sizeY = 200;
+			npc.sizeXZ = 100;
+			npc.sizeY = 100;
 		break;
 		case 1015:
 			npc.name = "Lover's Titan";

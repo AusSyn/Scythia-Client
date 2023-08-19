@@ -86,7 +86,7 @@ public class ItemDef2 {
                 itemDef.modelOffset1 = 0;
                 itemDef.modelOffsetY = 0;
                 itemDef.maleEquip1 = 41418;
-                itemDef.femaleEquip1 = 41534;
+                itemDef.femaleEquip1 = 41418;
                 itemDef.groundActions = new String[5];
                 itemDef.groundActions[2] = "Take";
                 itemDef.actions = new String[5];
