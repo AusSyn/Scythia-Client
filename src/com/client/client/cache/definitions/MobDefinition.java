@@ -1282,6 +1282,18 @@ public final class MobDefinition {
 			npc.sizeXZ = 90;
 			npc.sizeY = 130;
 		break;
+		case 10002:
+			npc.name = "Pinata Pet";
+			npc.models = new int[] { 65510 };
+			npc.standAnim = 808;
+			npc.walkAnim = 819;
+			npc.drawMinimapDot = true;
+			npc.actions = new String[] {null, null, null, null, null};
+			npc.combatLevel = 999;
+			npc.squaresNeeded = 2;
+			npc.sizeXZ = 60;
+			npc.sizeY = 60;
+		break;
 		case 5278:
 			npc.name = "Squirtle Pet";
 			npc.models = new int[] { 41399 };

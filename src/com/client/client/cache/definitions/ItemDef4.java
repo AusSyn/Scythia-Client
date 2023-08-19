@@ -585,6 +585,16 @@ public class ItemDef4 {
             itemDef.modelOffsetY = 0;
             itemDef.modelOffsetX = 0;
             break;
+        case 19:
+        	itemDef.name = "@cya@Pinata Pet";
+            itemDef.groundActions = new String[]{null, null, "Take", null, null};
+            itemDef.actions = new String[]{null, null, "Summon", null, "Drop"};
+            itemDef.modelZoom = 5700;
+            itemDef.modelID = 65510;
+            itemDef.modelOffset1 = 0;
+            itemDef.modelOffsetY = 0;
+            itemDef.modelOffsetX = 0;
+            break;
         case 18981:
             itemDef.name = "@red@Ruby Red @bla@Dragon @whi@Pet";
             itemDef.groundActions = new String[]{null, null, "Take", null, null};
