@@ -74,5 +74,9 @@ public class Configuration {
 			2, -2, 0, 0, -1, 0, 6, 0, 4, 3,//240
 			-1, 0, 0, -1, 6, 0, 0//250
 	};
+	public static boolean LOCAL = false;
+	public static String getHost() {
+		return LOCAL ? "localhost" : "162.218.48.104";
+	}
 
 }
